@@ -3,31 +3,22 @@ import pandas as pd
 import re
 
 
-# critério de parada do GRASP: critério de parada.
-# busca local: n itens n vizinhos and flips
-# quando eu sei que os meus vizinhos são inviáveis eu simplesmente ignoro a minha solução.
 
 def greedy_knapsack(Id, Value, Weight, capacity):
     # contains ratios of values to weight
-    ratio = [v / w for v, w in zip(Value, Weight)]
-    # print("Ratio: %s" % ratio)
-    # print("Length of the ratio: %s"% len(ratio))
-    # index is sorted according to value-to-weight ration
-    Id.sort(key=lambda x: ratio[x], reverse=True)
-
+    solucao = []
+    item = {}
+    capacidade_restante = capacity
+    for i in range(len(Id)):
+        item[i] = np.divide(Value[i], Weight[i]), Value[i], Weight[i]
+    item = sorted(item.values(), reverse=True)
     max_value = 0
-    fractions = [0] * len(Value)
-    for it in Id:
-        if Weight[it] <= capacity:
-            fractions[it] = 1
-            max_value += Value[it]
-            capacity -= Weight[it]
-        else:
-            fractions[it] = capacity / Weight[it]
-            max_value += Value[it] * capacity / Weight[it]
-            break
+    for i in range(len(Value)):
+        if item[i][2] <= capacidade_restante:
+            capacidade_restante -= item[i][2]
+            max_value += item[i][1]
 
-    return max_value, fractions
+    return max_value
 
 
 
@@ -62,12 +53,14 @@ def main():
         # print("Values: %s" % Value)
         # print("Weights: %s" % Weight)
         # print("Capacity: %d" % capacity)
-        max_value, fractions = greedy_knapsack(id, value, weight, capacity)
+        max_value = greedy_knapsack(id, value, weight, capacity)
+        s = "Instancia " + str(iterator - 1) + " : "+str(max_value)+"\n"
+        file = open("Output/greedy.out", "a+")
+        file.write(s)
         output_max_value.append(max_value)
-        output_fractions.append(fractions)
 
-    for i in range(16):
-        print('The maximum value of items that can be carried: %d'% int(output_max_value[i]))
+    #for i in range(16):
+        #print('The maximum value of items that can be carried: %d'% int(output_max_value[i]))
         # print('The fractions in which the items should be taken:', output_fractions[i])
 
 
