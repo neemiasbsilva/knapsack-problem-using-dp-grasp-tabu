@@ -1,4 +1,4 @@
-# ComputerTheory
+# Computer Theory
 
 <p align="justify">Studies have shown that computer theory techniques has been bringing significant improvements. In this paper, a proposal was presented for knapsack 0-1 using GRASP heuristic-meta.
 To evaluate the proposed method, different algorithms were compared for evaluated the method proposal. The result showed then grasp algorithm algorithm was equal to the optimal algorithm using dynamic programming.
