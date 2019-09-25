@@ -18,7 +18,7 @@ def knapsack(size, value, weight, capacity):
 
 
 def main():
-    iterator = 6
+    iterator = 1
     output_max_value = []
     output_fractions = []
     #start = time.time()
