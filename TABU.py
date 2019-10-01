@@ -3,7 +3,6 @@ import re
 
 
 def greedy_knapsack(Id, Value, Weight, capacity):
-    # contains ratios of values to weight
     solution = []
     item = {}
     capacidade_restante = capacity
@@ -20,12 +19,9 @@ def greedy_knapsack(Id, Value, Weight, capacity):
             max_value += item[i][1]
 
     begin_solution = [0 for i in range(len(Value))]
-    #print(capacidade_restante)
-    #print(solution)
     for i in solution:
         begin_solution[i] = 1
-    #print(begin_solution)
-    #print(begin_solution)
+
     return begin_solution, current_weight
 
 
@@ -52,8 +48,6 @@ def tabu_search(begin_solution, current_weight, value, weight, capacity):
     capacity_rest = capacity
     temp = best_solution[:]
     solution_partial = []
-    #print(best_solution)
-    #print(f(best_solution, item, capacity_rest))
     while It - BestIt <= 100:
         It += 1
         save_solution = temp[:]
@@ -62,8 +56,6 @@ def tabu_search(begin_solution, current_weight, value, weight, capacity):
         valorTabu = -1
         mov = -1
         movTabu = -1
-        #print("\n")
-        #print(temp)
         for i in range(len(item)):
             if temp[i] == 1:
                 temp[i] = 0
@@ -71,7 +63,6 @@ def tabu_search(begin_solution, current_weight, value, weight, capacity):
                 temp[i] = 1
 
 
-            #print(f(temp, item, capacity), end="\t")
             solution_partial = temp[:]
             if f(solution_partial, item, capacity_rest) > valor and not (i in T):
                 save_solution = solution_partial[:]
@@ -109,10 +100,7 @@ def tabu_search(begin_solution, current_weight, value, weight, capacity):
 
 
     print(f(best_solution, item, capacity))
-        #print(capacity_rest)
 
-
-    #print(begin_solution, current_weight)
 
 
 def main():
@@ -144,8 +132,6 @@ def main():
         s = "Instancia " + str(iterator - 1) + " : "+str(max_value)+"\n"
         file = open("Output/tabu.out", "a+")
         file.write(s)
-        # output_max_value.append(max_value)
-
 
 if __name__ == "__main__":
     main()
