@@ -97,11 +97,8 @@ def grasp(max_iterations, id, value, weight, capacity):
 
 def main():
     iterator = 1
-    output_max_value = []
-    output_fractions = []
     while iterator <= 16:
         file = open("entradas/input" + str(iterator) + ".in", "r")
-        # file = open("entradas/input2.in", "r")
 
         iterator += 1
         weight = []
@@ -127,7 +124,6 @@ def main():
         s = "Instancia " + str(iterator - 1) + " : " + str(grasp(max_iterations, id, value, weight, capacity)) + "\n"
         file = open("Output/grasp.out", "a+")
         file.write(s)
-        # print(f"Instacia {iterator-1}:",grasp(max_iterations, id, value, weight, capacity))
 
 
 if __name__ == "__main__":
