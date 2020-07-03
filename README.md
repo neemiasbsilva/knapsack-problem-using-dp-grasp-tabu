@@ -28,29 +28,39 @@ Tabu metaheuristic is some of search methods using to optimazing the the __GRASP
 
 ### Usage
 
+I other to run all of the methods, you need activate the __venv__ (virtual environment) type in your terminal the following code:
 
-<p align="justify">
-For using the algorithm do you know <b>python</b> and some library that are util for the implementation.
-The library util is:
-</p>
+```
+  source venv/bin/activate
+```
 
-- numpy
-- re
-- random
+The next step is run dynamic_programing, GRASP, and TABU implementations. For run the __dynamic programing__ just type the follow command in your terminal:
 
+```
+  python dynamic_programing.py
+```
+Already to run the __GRASP__ implementation, just type the follow command in your terminal:
+
+```
+  python grasp.py
+```
+
+And finally the last technique is the __TABU__ search, and for run the script just type the follow command in your termina:
+
+```
+  python tabu.py
+```
+
+
+
+
+## AcKnowledgment
+
+  Thanks for the teacher __PhD Eduardo Theodoro Bogue__ for all the tips about the concepts of the methods.
+  
+  
 #
 
-For more detail access the **assignment-grasp.pdf**
-#
-## Test 2:
-
-<p align="justify">The test two is part where I had to implement  of the metaheuristic <b>Tabu</b> search for the <b>Knapsack problem 0-1</b>. 
-</p>
-
-#
-
-Thanks for the teacher _PhD Eduardo Theodoro Bogue_ for contributing for this developer.
-#
 <p align="center"> Sincerely <a href="https://github.com/neemiasbsilva">Neemias B. Silva</a>.</p>
 
 
