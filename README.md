@@ -9,7 +9,7 @@ This repository was created for the subject of Computer Theory. The propose of t
 <p align="center"><img src="knapsack-problem.png" width="55%" height="65%"></p> 
 <h6 align="center">Example of 0-1 knapsack problem.</h6>
 
-The image above, show one of example the __0-1 Knapsack Problem__, where which boxes should be chosen to maximize the amount of money while still keeping the overall weight under or equal to 15 kg. For know more about the concepts of this problem, please just click in this [link](https://en.wikipedia.org/wiki/Knapsack_problem)
+The image above, show one of example the __0-1 Knapsack Problem__, where which boxes should be chosen to maximize the amount of money while still keeping the overall weight under or equal to 15 kg. For know more about the concepts of this problem, please just click in this [link](https://en.wikipedia.org/wiki/Knapsack_problem).
 
 ## Assignments Description:
 
@@ -59,7 +59,12 @@ And finally the last technique is the __TABU__ search, and for run the script ju
   python tabu.py
 ```
 
+## Some Results
 
+Bellow, follow some graphic results between mataheuristics (__GRASP, TABU__) and __dynamic programming__.
+
+<p align="center"><img src="Graphics/grasp-dynamic.png" width="55%" height="65%"></p> 
+<h6 align="center">Correlation between dynamic programing and GRASP metaheuristic.</h6>
 
 
 ## AcKnowledgment
