@@ -1,4 +1,4 @@
-# Solved 0-1 Knapsack Problem Using Three Diferrent Ways
+# Applying Three Diferrent Methods for Solve 0-1 Knapsack Problem 
 
 ## About the subject
 
