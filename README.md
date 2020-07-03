@@ -1,13 +1,12 @@
-# Computer Theory
+# Assignment of Computer Theory Subject for 0-1 Knapsack Problem
 
-## This repository was created in order to share the assignment 1 and the test 2
+## About the subject
 
-#
+This repository was created for the subject __Computer Theory__. The propose of this subject is to improvement your skills to solved the 0-1 knapsack problem of different ways. About the techniques used was __Dynamic Programing__ and __two metaheuristic__ (which are __GRASP__ and __TABU__ search).
 
-## Assignment 1:
-<p align="justify" style="font-size:18px; color:gray">Studies have shown that computer theory techniques has been bringing significant improvements. In this paper, a proposal was presented for knapsack 0-1 using GRASP heuristic-meta.
-To evaluate the proposed method, different algorithms were compared for evaluated the method proposal. The result showed then grasp algorithm algorithm was equal to the optimal algorithm using dynamic programming.
-</p>
+## Assignment 1: Dynamic Programing
+
+The proposal of this assignment is use dynamic programing to findo the __optimal solution__ of different instance of the __0-1 knapsack__ problem. The code of implementation can be show (clicked here)[file.py].
 
 #
 
