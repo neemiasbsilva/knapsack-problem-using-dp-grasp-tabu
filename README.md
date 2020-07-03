@@ -63,8 +63,16 @@ And finally the last technique is the __TABU__ search, and for run the script ju
 
 Bellow, follow some graphic results between mataheuristics (__GRASP, TABU__) and __dynamic programming__.
 
-<p align="center"><img src="Graphics/grasp-dynamic.png" width="55%" height="65%"></p> 
-<h6 align="center">Correlation between dynamic programing and GRASP metaheuristic.</h6>
+### GRASP vs Dynamic Programing
+
+<p align="center"><img src="Graphics/grasp-dynamic.png" width="65%" height="65%"></p> 
+<h6 align="center">Correlation between dynamic programing and GRASP metaheuristic using as score with metric.</h6>
+
+### TABU vs Dynamic Programing
+
+
+<p align="center"><img src="Graphics/Tabu-dynamic.png" width="65%" height="65%"></p> 
+<h6 align="center">Correlation between dynamic programing and TABU metaheuristic using as score with metric.</h6>
 
 
 ## AcKnowledgment
