@@ -1,5 +1,7 @@
 # Applying Three Diferrent Methods for Solve 0-1 Knapsack Problem 
 
+[!Build Status](https://img.shields.io/pypi/pyversions/Py)
+
 ## About the Repository
 
 This repository was created for the subject of Computer Theory. The propose of this subject is to improve your skills to solve the __0-1 knapsack__ problem of different ways. The techniques used were __Dynamic Programing__ and two metaheuristics (which are __GRASP__ and __TABU__ search).
