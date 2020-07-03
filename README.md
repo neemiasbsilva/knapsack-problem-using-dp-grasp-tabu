@@ -18,6 +18,18 @@ The goal of this second assignment is using __GRASP metaheuristic__ for solve th
 
 Tabu metaheuristic is some of search methods using to optimazing the the __GRASP__ metaheuristc. For more details about the concepts, please readme the paper (name of author)[link of paper]. Anyway, the result of this technique for __0-1 Knapsack__ problem was very satisfactory.
 
+
+## Getting Started
+
+### Prerequisites
+
+```
+  For get all of the algorithms you need to understand the "0-1 Knapsack problem" and what's metaheuristic.
+```
+
+### Usage
+
+
 <p align="justify">
 For using the algorithm do you know <b>python</b> and some library that are util for the implementation.
 The library util is:
