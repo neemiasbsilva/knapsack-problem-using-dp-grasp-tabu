@@ -6,14 +6,16 @@ This repository was created for the subject of Computer Theory. The propose of t
 
 ## 0-1 Knapsack Problem Description
 
-<p align="center"><img src="knapsack-problem.png" width="65%" height="65%"></p> 
+<p align="center"><img src="knapsack-problem.png" width="55%" height="65%"></p> 
 <h6 align="center">Example of 0-1 knapsack problem.</h6>
+
+The image above, show one of example the __0-1 Knapsack Problem__, where which boxes should be chosen to maximize the amount of money while still keeping the overall weight under or equal to 15 kg. For know more about the concepts of this problem, please just click in this [link](https://en.wikipedia.org/wiki/Knapsack_problem)
 
 ## Assignments Description:
 
 ### Assignment 1: Dynamic Programing
 
-The proposal of this assignment is use dynamic programing to findo the __optimal solution__ of different instance of the __0-1 knapsack__ problem. The code of implementation can be show (clicked here)[file.py].
+The proposal of this assignment is use dynamic programing to findo the __optimal solution__ of different instance of the __0-1 knapsack__ problem. The code of implementation can be show [clicked here][dynamic_programing.py].
 
 ### Assignment 2: GRASP Metaheuristic
 
@@ -21,7 +23,7 @@ The goal of this second assignment is using __GRASP metaheuristic__ for solve th
 
 ### Assignment 3: TABU Metaheuristic
 
-Tabu metaheuristic is some of search methods using to optimazing the the __GRASP__ metaheuristc. For more details about the concepts, please readme the paper (name of author)[link of paper]. Anyway, the result of this technique for __0-1 Knapsack__ problem was very satisfactory.
+Tabu metaheuristic is some of search methods using to optimazing the the __GRASP__ metaheuristc. For more details about the concepts, please readme the paper [Fred W. Glover (1986)](https://www.sciencedirect.com/science/article/abs/pii/0305054886900481). Anyway, the result of this technique for __0-1 Knapsack__ problem was very satisfactory.
 
 
 ## Getting Started
