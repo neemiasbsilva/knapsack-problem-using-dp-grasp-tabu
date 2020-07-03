@@ -2,8 +2,7 @@
 
 ## About the subject
 
-This repository was created for the subject __Computer Theory__. The propose of this subject is to improvement your skills to solved the 0-1 knapsack problem of different ways. About the techniques used was __Dynamic Programing__ and __two metaheuristic__ (which are __GRASP__ and __TABU__ search).
-
+This repository was created for the subject of Computer Theory. The propose of this subject is to improve your skills to solve the __0-1 knapsack__ problem of different ways. The techniques used were __Dynamic Programing__ and two metaheuristics (which are __GRASP__ and __TABU__ search).
 ## Assignments Description:
 
 ### Assignment 1: Dynamic Programing
