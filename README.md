@@ -1,8 +1,14 @@
 # Applying Three Diferrent Methods for Solve 0-1 Knapsack Problem 
 
-## About the subject
+## About the Repository
 
 This repository was created for the subject of Computer Theory. The propose of this subject is to improve your skills to solve the __0-1 knapsack__ problem of different ways. The techniques used were __Dynamic Programing__ and two metaheuristics (which are __GRASP__ and __TABU__ search).
+
+## 0-1 Knapsack Problem Description
+
+<p align="center"><img src="knapsack-problem.png" width="65%" height="65%"></p> 
+<h6 align="center">Example of 0-1 knapsack problem.</h6>
+
 ## Assignments Description:
 
 ### Assignment 1: Dynamic Programing
